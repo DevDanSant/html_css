@@ -1,0 +1,26 @@
+@charset "UTF_8";
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blanchedalmond;
+}
+header{
+    background-color: yellowgreen;
+    padding: 10px;
+    margin: 10px;
+
+}
+main{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #011F26;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    
+}
+footer{
+
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+}

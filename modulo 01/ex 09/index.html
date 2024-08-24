@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Testando diferentes tamanhos de imagnes</p>
+    <picture>
+        <source media="(max-width:750px )" srcset="Imagens/Pequena.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="Imagens/media.png" type="image/png">
+        <img src="Imagens/Grande.png" alt="imagens flexivel">
+    </picture>
+    <h1>vamos ouvir?</h1>
+    <p>solta o som DJ</p>
+    <audio src="midia/House on the Hill - Everet Almond.mp3" controls autoplay></audio>
+    <h1>Videos</h1>
+    <h2>hospedagem do meu proprio servidor</h2>
+    <p><video src="midia/{cbf9ac46-350f-4fed-8e06-2b0779143367}.mov" width="
+        500" controls></video></p>
+        <h2>Videos do youtube</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ssVNxRgWC2I?si=hc02eULoiXkrdT21" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
